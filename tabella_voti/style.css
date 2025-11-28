@@ -1,0 +1,55 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fdfdfd; /* Sfondo pastello chiaro */
+            padding: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 18px;
+            text-align: left;
+            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+            background-color: #fff; /* Sfondo bianco */
+        }
+
+        th, td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #eee; /* Bordo più leggero */
+            text-align: center;
+        }
+
+        th {
+            background-color: #ffd1dc; /* Rosa pastello */
+            color: #ff6f91; /* Rosa corallo scuro */
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        tr {
+            transition: background-color 0.3s ease;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ffe4e1; /* Sfondo pastello leggero */
+        }
+
+        tr:hover {
+            background-color: #ffecec; /* Colore hover rosa pastello chiaro */
+        }
+
+        td {
+            color: #555; /* Testo grigio scuro */
+        }
+
+        /* Mobile responsiveness */
+        /*@media (max-width: 600px) {
+            table {
+                font-size: 14px;
+            }
+
+            th, td {
+                padding: 10px;
+            }
+        }*/
